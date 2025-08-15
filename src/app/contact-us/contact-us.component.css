@@ -1,0 +1,250 @@
+.banner-area {
+    height: 560px;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url('../../assets/pic/contact-us_banner.jpg');
+}
+
+.container {
+    width: 100%;
+    padding: 0 10px;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.my-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.banner-content {
+    margin-top: 160px;
+}
+
+.text-start {
+    text-align: left !important;
+}
+
+.banner-title {
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 70px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.breadcrumb-container {
+    color: #ff5e17;
+}
+
+.breadcrumb-container {
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.breadcrumb-container span:first-child {
+    margin-left: 0;
+}
+
+.breadcrumb-container span {
+    margin: 0 10px;
+}
+
+.breadcrumb-container a {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+    background-color: #191918;
+    padding-top: 95px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.sashien-section {
+    padding: 90px 0px 60px 0px;
+    position: relative;
+}
+
+.sashien-column {
+    display: flex;
+    min-height: 1px;
+    position: relative;
+}
+
+.sashien-element.sashien-column.sashien-element[data-element_type="column"] > .sashien-widget-wrap.sashien-element-populated {
+    align-content: center;
+    align-items: center;
+}
+
+.sashien-widget-wrap {
+    align-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+
+.sashien-widget:not(:last-child) {
+    margin-block-end: 20px;
+    margin-bottom: var(--kit-widget-spacing, 20px);
+}
+
+.sashien-element {
+    --widgets-spacing: 20px 20px;
+}
+
+.section-title-wrapper {
+    margin-bottom: 35px;
+
+}
+
+.section-title-content {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+.section-subtitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    color: #FFED00;
+}
+
+.section-title {
+    margin-bottom: 10px;
+}
+
+.section-title h2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+
+.section-description {
+    margin-bottom: 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.sashien-widget-container {
+    height: auto;
+    padding: 15px;
+}
+
+.col-md-6{
+    padding: 0 10px;
+}
+
+.sashien-contact-form-container .form-control-wrapper{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.form-control-wrap{
+    position: relative;
+}
+
+.sashien-contact-form-container .form-control-wrapper input{
+    background-color: #2a2a2a;
+    border-color: #2a2a2a;
+    color: #fff;
+}
+
+input[type="text"], input[type="email"], input[type="tel"]{
+    color: #939393;
+    border: 1px solid #2a2a2a;
+    border-radius: 3px;
+    padding: 15px;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #20201f;
+}
+
+.sashien-contact-form-container input{
+    margin-bottom: 0 !important;
+}
+
+.form-control-wrapper i {
+    position: absolute;
+    font-size: 18px;
+    top: 30px;
+    transform: translateY(-50%);
+    right: 20px;
+    pointer-events: none;
+    color: #626262;
+}
+
+.fa, .far, .fas{
+    font-family: "Font Awesome 5 Free";
+}
+
+.fab, .far {
+    font-weight: 400;
+}
+
+[type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+button[type="submit"]{
+    border-color: #ff5e17;
+    background-color: #ff5e17;
+}
+
+.button, input[type="submit"], button[type="submit"] {
+    padding: 18px 40px 16px 40px;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: 50px;
+    font-size: 18px;
+    border: 2px solid;
+    color: #ffffff;
+    display: inline-block;
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
