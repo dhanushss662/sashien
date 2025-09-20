@@ -6,6 +6,7 @@ import { provideClientHydration } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { provideHttpClient } from '@angular/common/http';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 export const appConfig: ApplicationConfig = {
   providers: [provideRouter(routes), provideClientHydration(),
@@ -18,6 +19,8 @@ export const appConfig: ApplicationConfig = {
         progressBar: true,
         closeButton: true
       })
-    )
+    ),
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
   ]
 };
+
