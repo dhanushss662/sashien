@@ -5,7 +5,9 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    background-image: url('../../assets/pic/about-us_banner.jpg');
+    background-image: url('../../assets/pic/bg1.JPG');
+    top: 90px;
+    overflow: auto;
 }
 
 .container {
@@ -40,29 +42,6 @@
     line-height: 70px;
     margin-bottom: 15px;
     text-transform: uppercase;
-}
-
-.breadcrumb-container {
-    color: #ff5e17;
-}
-
-.breadcrumb-container {
-    font-size: 20px;
-    font-weight: 500;
-    display: inline-block;
-}
-
-.breadcrumb-container span:first-child {
-    margin-left: 0;
-}
-
-.breadcrumb-container span {
-    margin: 0 10px;
-}
-
-.breadcrumb-container a {
-    font-size: 20px;
-    font-weight: 500;
 }
 
 a {
@@ -110,10 +89,6 @@ section {
 .sashien-widget:not(:last-child) {
     margin-block-end: 20px;
     margin-bottom: var(--kit-widget-spacing, 20px);
-}
-
-.sashien-element {
-    --widgets-spacing: 20px 20px;
 }
 
 .section-title-wrapper {

@@ -5,145 +5,122 @@
                 <div class="banner-content text-start">
                     <h2 class="banner-title">
                         About </h2>
-
-                    <div class="breadcrumb-container">
-                        <!-- Breadcrumb NavXT 6.6.0 -->
-                        <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
-                                title="Go to Sashien" href="/home" class="home"><span
-                                    property="name">Sashien</span></a>
-                            <meta property="position" content="1">
-                        </span>-<span property="itemListElement" typeof="ListItem"><span property="name"
-                                class="post post-page current-item">About</span>
-                            <meta property="url" content="/about-us">
-                            <meta property="position" content="2">
-                        </span>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div id="primary" class="content-area page-content-area layout-full-width">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <section class="sashien-section sashien-top-section">
-                    <div class="sashien-container sashien-column-gap-extended">
-                        <div class="sashien-widget-wrap">
-                            <div class="sashien-element">
-                                <div class="sashien-widget-container">
-                                    <div class="section-title-wrapper ">
-                                        <div class="section-title-content">
-                                            <span class="section-subtitle fs-4" style="color: #FFED00;">OUR
-                                                BEST FEATURES</span>
-                                            <div class="section-title" style="color: #FFED00;">
-                                                <h2 class="fs-1">We have 25+ Years of Experience.</h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sashien-element">
-                                <div class="sashien-widget-container">
-                                    <div class="icon-box-wrapper">
-
-                                        <div class="ep-section-description">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and
-                                                typesetting industry has been industry's standard dummy
-                                                text ever sence the 1500s, when and unknown printer took
-                                                galley type and scrambled to make as type specimen book
-                                                Ithas surived not only five centuries.</p>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and
-                                                typesetting industry has been industry's standard dummy
-                                                text ever sence the 1500s, when and unknown printer took
-                                                galley type.</p>
-                                        </div>
-                                    </div>
-                                </div>
+<section class="sashien-section sashien-top-section">
+    <div class="sashien-container sashien-column-gap-extended">
+        <div class="sashien-widget-wrap">
+            <div class="sashien-element">
+                <div class="sashien-widget-container">
+                    <div class="section-title-wrapper ">
+                        <div class="section-title-content">
+                            <span class="section-subtitle fs-4" style="color: #FFED00;">OUR
+                                BEST FEATURES</span>
+                            <div class="section-title" style="color: #FFED00;">
+                                <h2 class="fs-1">We have 25+ Years of Experience.</h2>
                             </div>
                         </div>
                     </div>
-                </section>
-                <section class="sashien-section sashien-top-section">
-                    <div class="sashien-container sashien-column-gap-default">
-                        <div class="sashien-column">
-                            <div class="sashien-widget-wrap">
-                                <div class="sashien-element">
-                                    <div class="sashien-widget-container">
-                                        <div class="video-popup-wrapper ">
-                                            <div class="video-shape-one primary-bg"></div>
-                                            <div class="video-shape-two primary-bg"></div>
-                                            <div class="video-shape-three primary-bg"></div>
-                                            <div class="video-popup-image cover-bg">
-                                                <a href="https://www.youtube.com/@KatroliTV" class="video-button mfp-iframe">
-                                                    <i class="fa fa-play"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <script>
-                                            jQuery(document).ready(function ($) {
-                                                $(".video-button").magnificPopup({
-                                                    type: 'video',
-                                                });
-                                            });
-                                        </script>
-
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+            </div>
+            <div class="sashien-element">
+                <div class="sashien-widget-container">
+                    <div class="icon-box-wrapper">
+                        <div class="ep-section-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry has been industry's standard dummy
+                                text ever sence the 1500s, when and unknown printer took
+                                galley type and scrambled to make as type specimen book
+                                Ithas surived not only five centuries.</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry has been industry's standard dummy
+                                text ever sence the 1500s, when and unknown printer took
+                                galley type.</p>
                         </div>
                     </div>
-                </section>
-                <section class="sashien-section sashien-top-section sashien-section-stretched">
-                    <div class="sashien-container sashien-column-gap-default">
-                        <div class="sashien-column sashien-col-100">
-                            <div class="sashien-widget-wrap sashien-element-populated">
-                                <div class="sashien-element">
-                                    <div class="sashien-widget-container">
-                                        <div class="testimonial-slider-wrapper">
-                                            <ngx-slick-carousel #slickModal="slick-carousel" [config]="slideConfig"
-                                                class="carousel-container">
-                                                <div ngxSlickItem *ngFor="let testimonial of testimonials"
-                                                    class="testimonial-slide">
-                                                    <div class="row">
-                                                        <div class="col-lg-4 col-md-4">
-                                                            <div class="image">
-                                                                <div class="image-shape-one primary-bg"></div>
-                                                                <div class="image-shape-two primary-bg"></div>
-                                                                <img [src]="testimonial.image" alt="Gallery" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-8 col-md-8 my-auto">
-                                                            <div class="testimonial-item">
-                                                                <div class="testimonial-desc">
-                                                                    <p>
-                                                                        <span style="color: #ff5e17;">“</span>
-                                                                        {{ testimonial.message }}
-                                                                        <span style="color: #ff5e17;">”</span>
-                                                                    </p>
-                                                                </div>
-                                                                <div class="testimonial-shape-two primary-bg">
-                                                                    <div class="testimonial-shape-three"></div>
-                                                                </div>
-                                                                <div class="testimonial-info">
-                                                                    <h6 class="name">{{ testimonial.name }}</h6>
-                                                                    <span class="designation primary-color">{{
-                                                                        testimonial.designation }}</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </ngx-slick-carousel>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</section>
+<section class="sashien-section sashien-top-section">
+    <div class="sashien-container sashien-column-gap-default">
+        <div class="sashien-column">
+            <div class="sashien-widget-wrap">
+                <div class="sashien-element">
+                    <div class="sashien-widget-container">
+                        <div class="video-popup-wrapper ">
+                            <div class="video-shape-one primary-bg"></div>
+                            <div class="video-shape-two primary-bg"></div>
+                            <div class="video-shape-three primary-bg"></div>
+                            <div class="video-popup-image cover-bg">
+                                <a href="https://www.youtube.com/@KatroliTV" class="video-button mfp-iframe">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <script>
+                            jQuery(document).ready(function ($) {
+                                $(".video-button").magnificPopup({
+                                    type: 'video',
+                                });
+                            });
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sashien-section sashien-top-section sashien-section-stretched">
+    <div class="sashien-container sashien-column-gap-default">
+        <div class="sashien-column sashien-col-100">
+            <div class="sashien-widget-wrap sashien-element-populated">
+                <div class="sashien-element">
+                    <div class="sashien-widget-container">
+                        <div class="testimonial-slider-wrapper">
+                            <ngx-slick-carousel #slickModal="slick-carousel" [config]="slideConfig"
+                                class="carousel-container">
+                                <div ngxSlickItem *ngFor="let testimonial of testimonials" class="testimonial-slide">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4">
+                                            <div class="image">
+                                                <div class="image-shape-one primary-bg"></div>
+                                                <div class="image-shape-two primary-bg"></div>
+                                                <img [src]="testimonial.image" alt="Gallery" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 col-md-8 my-auto">
+                                            <div class="testimonial-item">
+                                                <div class="testimonial-desc">
+                                                    <p>
+                                                        <span style="color: #ff5e17;">“</span>
+                                                        {{ testimonial.message }}
+                                                        <span style="color: #ff5e17;">”</span>
+                                                    </p>
+                                                </div>
+                                                <div class="testimonial-shape-two primary-bg">
+                                                    <div class="testimonial-shape-three"></div>
+                                                </div>
+                                                <div class="testimonial-info">
+                                                    <h6 class="name">{{ testimonial.name }}</h6>
+                                                    <span class="designation primary-color">{{
+                                                        testimonial.designation }}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ngx-slick-carousel>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

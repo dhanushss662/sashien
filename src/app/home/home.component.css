@@ -113,6 +113,11 @@ section {
     background-color: #2a292a;
 }
 
+.service-image .img{
+    height: 250px;
+    width: auto;
+}
+
 .row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;

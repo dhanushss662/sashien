@@ -13,17 +13,23 @@ import { NOTIMP } from 'node:dns';
 export class AboutUsComponent{
 testimonials = [
     {
-      image: '../../assets/pic/master.jpg',
+      image: '../../assets/pic/expert1.JPG',
       message: 'Printing and typesetting industry has been standard dummy text ever since the 1500s...',
       name: 'Bernice Grant',
       designation: 'Senior Trainer'
     },
     {
-      image: '../../assets/pic/master.jpg',
+      image: '../../assets/pic/expert2.JPG',
       message: 'Printing and typesetting industry has been standard dummy text ever since the 1500s...',
       name: 'Bernice Grant',
       designation: 'Senior Trainer'
     },
+    {
+      image: '../../assets/pic/expert3.JPG',
+      message: 'Printing and typesetting industry has been standard dummy text ever since the 1500s...',
+      name: 'Bernice Grant',
+      designation: 'Senior Trainer'
+    }
   ];
 
     slideConfig = {

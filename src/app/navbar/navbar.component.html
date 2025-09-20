@@ -9,11 +9,11 @@
                                 <ul class="list-style list-inline">
                                     <li>
                                         <i class="flaticon-pin"></i>
-                                        <h6 style="color: #FFDEDE;">430 E State St Lola, Wisconsin</h6>
+                                        <h6 style="color: #FFDEDE;">Elumalai Street, Ayanavaram </h6>
                                     </li>
                                     <li>
                                         <i class="flaticon-telephone"></i>
-                                        <a href="tel:12345789">00 (85) 684 793</a>
+                                        <a href="tel:12345789">+91 9600077318</a>
                                     </li>
                                     <li>
                                         <i class="flaticon-email"></i>
@@ -52,7 +52,7 @@
                                                 </li>
                                                 <li id="menu-item"
                                                     class="menu-item">
-                                                    <a routerLink="/contact-us">Contact Us</a>
+                                                    <a routerLink="/events">Events</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -70,13 +70,13 @@
             &#9776;
         </li>
         <li>
-            <a routerLink="/" id="home">Home</a>
+            <a routerLink="/" id="home" (click)="toggleMenu();">Home</a>
         </li>
         <li>
-            <a routerLink="/about-us" id="aboutus">About us</a>
+            <a routerLink="/about-us" id="aboutus" (click)="toggleMenu();">About us</a>
         </li>
         <li>
-            <a routerLink="/contact-us" id="contactus">Contact Us</a>
+            <a routerLink="/events" id="events" (click)="toggleMenu();">Events</a>
         </li>
     </ul>
     <div class="logo">
