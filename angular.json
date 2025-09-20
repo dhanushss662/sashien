@@ -14,7 +14,6 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/sashien",
-            "baseHref": "/sashien/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -33,12 +32,7 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/slick-carousel/slick/slick.min.js"
-            ],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            ]
           },
           "configurations": {
             "production": {
