@@ -159,6 +159,10 @@ p {
     padding: 15px;
 }
 
+.ep-section-description p{
+    font-size: 18px;
+}
+
 .video-popup-image {
     background-image: url('../../assets/pic/karate-practice.jpg');
 }
@@ -170,7 +174,7 @@ p {
 }
 
 .primary-bg {
-    background-color: #ff5e17;
+    background-color: #16FF00;
 }
 
 .video-shape-one {
@@ -306,7 +310,7 @@ a {
 }
 
 .video-button::before {
-    background-color: #ff5e17;
+    background-color: #16FF00;
     content: "";
     position: absolute;
     left: 50%;
@@ -321,7 +325,7 @@ a {
 }
 
 .video-button::after {
-    background-color: #ff5e17;
+    background-color: #16FF00;
     content: "";
     position: absolute;
     left: 50%;

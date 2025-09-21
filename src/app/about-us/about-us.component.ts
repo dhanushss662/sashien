@@ -11,34 +11,46 @@ import { NOTIMP } from 'node:dns';
   styleUrl: './about-us.component.css'
 })
 export class AboutUsComponent{
-testimonials = [
-    {
-      image: '../../assets/pic/expert1.JPG',
-      message: 'Printing and typesetting industry has been standard dummy text ever since the 1500s...',
-      name: 'Bernice Grant',
-      designation: 'Senior Trainer'
-    },
-    {
-      image: '../../assets/pic/expert2.JPG',
-      message: 'Printing and typesetting industry has been standard dummy text ever since the 1500s...',
-      name: 'Bernice Grant',
-      designation: 'Senior Trainer'
-    },
-    {
-      image: '../../assets/pic/expert3.JPG',
-      message: 'Printing and typesetting industry has been standard dummy text ever since the 1500s...',
-      name: 'Bernice Grant',
-      designation: 'Senior Trainer'
-    }
-  ];
+// testimonials = [
+//     {
+//       image: 'assets/pic/student1.png',
+//       message: 'Printing and typesetting industry has been standard dummy text ever since the 1500s...',
+//       name: 'M.S.Sreevad',
+//       designation: 'Senior Trainer'
+//     },
+//     {
+//       image: 'assets/pic/student2.png',
+//       message: 'Printing and typesetting industry has been standard dummy text ever since the 1500s...',
+//       name: 'M.S.Sreehaa',
+//       designation: 'Senior Trainer'
+//     },
+//     {
+//       image: 'assets/pic/student3.png',
+//       message: 'Printing and typesetting industry has been standard dummy text ever since the 1500s...',
+//       name: 'Nityadharan',
+//       designation: 'Senior Trainer'
+//     },
+//     {
+//       image: 'assets/pic/student4.png',
+//       message: 'Printing and typesetting industry has been standard dummy text ever since the 1500s...',
+//       name: 'Bernice Grant',
+//       designation: 'Senior Trainer'
+//     },
+//     {
+//       image: 'assets/pic/student5.png',
+//       message: 'Printing and typesetting industry has been standard dummy text ever since the 1500s...',
+//       name: 'Bernice Grant',
+//       designation: 'Senior Trainer'
+//     }
+//   ];
 
-    slideConfig = {
-    "slidesToShow": 1,
-    "slidesToScroll": 1,
-    "arrows": false,
-    "dots": false,
-    "autoplay": true,
-    "autoplaySpeed" : 5000,
-    "infinite": true
-  };
+//     slideConfig = {
+//     "slidesToShow": 1,
+//     "slidesToScroll": 1,
+//     "arrows": false,
+//     "dots": false,
+//     "autoplay": true,
+//     "autoplaySpeed" : 5000,
+//     "infinite": true
+//   };
 }
